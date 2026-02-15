@@ -18,17 +18,26 @@ export default function RangeViz({
 }: RangeVizProps) {
   const interactive = value !== undefined && onChange !== undefined;
   const { min, max, avg } = stats;
-  const range = max - min;
+  const histRange = max - min;
 
-  // Padded visual range (original logic)
-  const pad = range === 0 ? 1 : range * 0.15;
-  const vMin = min - pad;
-  const vMax = max + pad;
-  const vRange = vMax - vMin;
+  // When interactive, everything maps to sliderMin–sliderMax so the
+  // range bar and the native slider thumb share the same coordinate system.
+  // When read-only, use the original padded visual range.
+  let pctFn: (v: number) => number;
 
-  const pctMin = ((min - vMin) / vRange) * 100;
-  const pctMax = ((max - vMin) / vRange) * 100;
-  const pctAvg = ((avg - vMin) / vRange) * 100;
+  if (interactive) {
+    const full = sliderMax - sliderMin || 1;
+    pctFn = (v: number) => ((v - sliderMin) / full) * 100;
+  } else {
+    const pad = histRange === 0 ? 1 : histRange * 0.15;
+    const vMin = min - pad;
+    const vRange = (max + pad) - vMin;
+    pctFn = (v: number) => ((v - vMin) / vRange) * 100;
+  }
+
+  const pctMin = pctFn(min);
+  const pctMax = pctFn(max);
+  const pctAvg = pctFn(avg);
 
   return (
     <div className="flex items-center gap-2.5 text-xs text-gray-500">
@@ -40,7 +49,7 @@ export default function RangeViz({
         {/* Historical range bar */}
         <div
           className="absolute top-1/2 -translate-y-1/2 h-2.5 bg-gradient-to-r from-brand-100 to-brand-200 rounded-full"
-          style={{ left: `${pctMin}%`, width: `${pctMax - pctMin}%` }}
+          style={{ left: `${pctMin}%`, width: `${Math.max(0, pctMax - pctMin)}%` }}
         />
         {/* Avg dot (only when not interactive) */}
         {!interactive && (
@@ -49,7 +58,7 @@ export default function RangeViz({
             style={{ left: `${pctAvg}%`, transform: 'translate(-50%, -50%)' }}
           />
         )}
-        {/* Avg tick (when interactive, show as subtle marker) */}
+        {/* Avg tick (when interactive, subtle marker) */}
         {interactive && (
           <div
             className="absolute top-1/2 w-0.5 h-4 -translate-y-1/2 bg-brand-300 rounded-full opacity-50"
