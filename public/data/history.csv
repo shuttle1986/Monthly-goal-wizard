@@ -1,0 +1,314 @@
+region,chapter,metric_key,year,month,value
+Midwest,Chicago,events,2022,1,4
+Midwest,Chicago,events,2023,1,5
+Midwest,Chicago,events,2024,1,6
+Midwest,Chicago,events,2025,1,5
+Midwest,Chicago,events,2022,2,5
+Midwest,Chicago,events,2023,2,5
+Midwest,Chicago,events,2024,2,6
+Midwest,Chicago,events,2025,2,4
+Midwest,Chicago,events,2022,3,7
+Midwest,Chicago,events,2023,3,6
+Midwest,Chicago,events,2024,3,8
+Midwest,Chicago,events,2025,3,7
+Midwest,Chicago,events,2022,4,6
+Midwest,Chicago,events,2023,4,7
+Midwest,Chicago,events,2024,4,6
+Midwest,Chicago,events,2025,4,8
+Midwest,Chicago,events,2022,5,5
+Midwest,Chicago,events,2023,5,4
+Midwest,Chicago,events,2024,5,5
+Midwest,Chicago,events,2022,6,3
+Midwest,Chicago,events,2023,6,3
+Midwest,Chicago,events,2024,6,4
+Midwest,Chicago,events,2022,7,2
+Midwest,Chicago,events,2023,7,3
+Midwest,Chicago,events,2024,7,2
+Midwest,Chicago,events,2022,8,3
+Midwest,Chicago,events,2023,8,4
+Midwest,Chicago,events,2024,8,3
+Midwest,Chicago,events,2022,9,6
+Midwest,Chicago,events,2023,9,7
+Midwest,Chicago,events,2024,9,6
+Midwest,Chicago,events,2022,10,7
+Midwest,Chicago,events,2023,10,8
+Midwest,Chicago,events,2024,10,7
+Midwest,Chicago,events,2022,11,6
+Midwest,Chicago,events,2023,11,5
+Midwest,Chicago,events,2024,11,6
+Midwest,Chicago,events,2022,12,4
+Midwest,Chicago,events,2023,12,3
+Midwest,Chicago,events,2024,12,4
+Midwest,Chicago,new_teens,2022,1,10
+Midwest,Chicago,new_teens,2023,1,15
+Midwest,Chicago,new_teens,2024,1,12
+Midwest,Chicago,new_teens,2025,1,14
+Midwest,Chicago,new_teens,2022,2,12
+Midwest,Chicago,new_teens,2023,2,18
+Midwest,Chicago,new_teens,2024,2,22
+Midwest,Chicago,new_teens,2025,2,16
+Midwest,Chicago,new_teens,2022,3,20
+Midwest,Chicago,new_teens,2023,3,25
+Midwest,Chicago,new_teens,2024,3,18
+Midwest,Chicago,new_teens,2025,3,22
+Midwest,Chicago,new_teens,2022,4,15
+Midwest,Chicago,new_teens,2023,4,12
+Midwest,Chicago,new_teens,2024,4,18
+Midwest,Chicago,new_teens,2022,5,8
+Midwest,Chicago,new_teens,2023,5,10
+Midwest,Chicago,new_teens,2024,5,7
+Midwest,Chicago,new_teens,2022,6,5
+Midwest,Chicago,new_teens,2023,6,6
+Midwest,Chicago,new_teens,2024,6,4
+Midwest,Chicago,new_teens,2022,7,3
+Midwest,Chicago,new_teens,2023,7,4
+Midwest,Chicago,new_teens,2024,7,5
+Midwest,Chicago,new_teens,2022,8,6
+Midwest,Chicago,new_teens,2023,8,8
+Midwest,Chicago,new_teens,2024,8,7
+Midwest,Chicago,new_teens,2022,9,18
+Midwest,Chicago,new_teens,2023,9,22
+Midwest,Chicago,new_teens,2024,9,20
+Midwest,Chicago,new_teens,2022,10,14
+Midwest,Chicago,new_teens,2023,10,16
+Midwest,Chicago,new_teens,2024,10,15
+Midwest,Chicago,new_teens,2022,11,10
+Midwest,Chicago,new_teens,2023,11,12
+Midwest,Chicago,new_teens,2024,11,11
+Midwest,Chicago,new_teens,2022,12,5
+Midwest,Chicago,new_teens,2023,12,7
+Midwest,Chicago,new_teens,2024,12,6
+Midwest,Chicago,unique_attendance,2022,1,35
+Midwest,Chicago,unique_attendance,2023,1,42
+Midwest,Chicago,unique_attendance,2024,1,38
+Midwest,Chicago,unique_attendance,2025,1,45
+Midwest,Chicago,unique_attendance,2022,2,40
+Midwest,Chicago,unique_attendance,2023,2,48
+Midwest,Chicago,unique_attendance,2024,2,55
+Midwest,Chicago,unique_attendance,2025,2,50
+Midwest,Chicago,unique_attendance,2022,3,55
+Midwest,Chicago,unique_attendance,2023,3,60
+Midwest,Chicago,unique_attendance,2024,3,52
+Midwest,Chicago,unique_attendance,2025,3,58
+Midwest,Chicago,unique_attendance,2022,4,50
+Midwest,Chicago,unique_attendance,2023,4,55
+Midwest,Chicago,unique_attendance,2024,4,48
+Midwest,Chicago,unique_attendance,2022,5,35
+Midwest,Chicago,unique_attendance,2023,5,38
+Midwest,Chicago,unique_attendance,2024,5,32
+Midwest,Chicago,unique_attendance,2022,6,20
+Midwest,Chicago,unique_attendance,2023,6,25
+Midwest,Chicago,unique_attendance,2024,6,22
+Midwest,Chicago,unique_attendance,2022,7,15
+Midwest,Chicago,unique_attendance,2023,7,18
+Midwest,Chicago,unique_attendance,2024,7,14
+Midwest,Chicago,unique_attendance,2022,8,22
+Midwest,Chicago,unique_attendance,2023,8,28
+Midwest,Chicago,unique_attendance,2024,8,25
+Midwest,Chicago,unique_attendance,2022,9,50
+Midwest,Chicago,unique_attendance,2023,9,55
+Midwest,Chicago,unique_attendance,2024,9,52
+Midwest,Chicago,unique_attendance,2022,10,55
+Midwest,Chicago,unique_attendance,2023,10,60
+Midwest,Chicago,unique_attendance,2024,10,58
+Midwest,Chicago,unique_attendance,2022,11,45
+Midwest,Chicago,unique_attendance,2023,11,48
+Midwest,Chicago,unique_attendance,2024,11,50
+Midwest,Chicago,unique_attendance,2022,12,30
+Midwest,Chicago,unique_attendance,2023,12,28
+Midwest,Chicago,unique_attendance,2024,12,32
+Midwest,Chicago,one_on_ones,2022,1,8
+Midwest,Chicago,one_on_ones,2023,1,10
+Midwest,Chicago,one_on_ones,2024,1,12
+Midwest,Chicago,one_on_ones,2025,1,11
+Midwest,Chicago,one_on_ones,2022,2,10
+Midwest,Chicago,one_on_ones,2023,2,12
+Midwest,Chicago,one_on_ones,2024,2,15
+Midwest,Chicago,one_on_ones,2025,2,13
+Midwest,Chicago,one_on_ones,2022,3,12
+Midwest,Chicago,one_on_ones,2023,3,14
+Midwest,Chicago,one_on_ones,2024,3,11
+Midwest,Chicago,one_on_ones,2025,3,15
+Midwest,Chicago,one_on_ones,2022,4,10
+Midwest,Chicago,one_on_ones,2023,4,12
+Midwest,Chicago,one_on_ones,2024,4,11
+Midwest,Chicago,one_on_ones,2022,5,8
+Midwest,Chicago,one_on_ones,2023,5,9
+Midwest,Chicago,one_on_ones,2024,5,7
+Midwest,Chicago,one_on_ones,2022,6,5
+Midwest,Chicago,one_on_ones,2023,6,6
+Midwest,Chicago,one_on_ones,2024,6,4
+Midwest,Chicago,one_on_ones,2022,7,4
+Midwest,Chicago,one_on_ones,2023,7,3
+Midwest,Chicago,one_on_ones,2024,7,5
+Midwest,Chicago,one_on_ones,2022,8,6
+Midwest,Chicago,one_on_ones,2023,8,7
+Midwest,Chicago,one_on_ones,2024,8,8
+Midwest,Chicago,one_on_ones,2022,9,12
+Midwest,Chicago,one_on_ones,2023,9,14
+Midwest,Chicago,one_on_ones,2024,9,13
+Midwest,Chicago,one_on_ones,2022,10,14
+Midwest,Chicago,one_on_ones,2023,10,16
+Midwest,Chicago,one_on_ones,2024,10,15
+Midwest,Chicago,one_on_ones,2022,11,10
+Midwest,Chicago,one_on_ones,2023,11,12
+Midwest,Chicago,one_on_ones,2024,11,11
+Midwest,Chicago,one_on_ones,2022,12,6
+Midwest,Chicago,one_on_ones,2023,12,8
+Midwest,Chicago,one_on_ones,2024,12,7
+Midwest,Detroit,events,2022,1,3
+Midwest,Detroit,events,2023,1,4
+Midwest,Detroit,events,2024,1,3
+Midwest,Detroit,events,2022,2,4
+Midwest,Detroit,events,2023,2,3
+Midwest,Detroit,events,2024,2,5
+Midwest,Detroit,events,2022,3,5
+Midwest,Detroit,events,2023,3,6
+Midwest,Detroit,events,2024,3,5
+Midwest,Detroit,events,2022,4,5
+Midwest,Detroit,events,2023,4,4
+Midwest,Detroit,events,2024,4,6
+Midwest,Detroit,new_teens,2022,1,8
+Midwest,Detroit,new_teens,2023,1,10
+Midwest,Detroit,new_teens,2024,1,9
+Midwest,Detroit,new_teens,2022,2,10
+Midwest,Detroit,new_teens,2023,2,12
+Midwest,Detroit,new_teens,2024,2,11
+Midwest,Detroit,new_teens,2022,3,14
+Midwest,Detroit,new_teens,2023,3,16
+Midwest,Detroit,new_teens,2024,3,15
+Midwest,Detroit,new_teens,2022,4,12
+Midwest,Detroit,new_teens,2023,4,10
+Midwest,Detroit,new_teens,2024,4,14
+Midwest,Detroit,unique_attendance,2022,1,25
+Midwest,Detroit,unique_attendance,2023,1,30
+Midwest,Detroit,unique_attendance,2024,1,28
+Midwest,Detroit,unique_attendance,2022,2,28
+Midwest,Detroit,unique_attendance,2023,2,32
+Midwest,Detroit,unique_attendance,2024,2,30
+Midwest,Detroit,unique_attendance,2022,3,35
+Midwest,Detroit,unique_attendance,2023,3,40
+Midwest,Detroit,unique_attendance,2024,3,38
+Midwest,Detroit,unique_attendance,2022,4,32
+Midwest,Detroit,unique_attendance,2023,4,36
+Midwest,Detroit,unique_attendance,2024,4,34
+Midwest,Detroit,one_on_ones,2022,1,6
+Midwest,Detroit,one_on_ones,2023,1,8
+Midwest,Detroit,one_on_ones,2024,1,7
+Midwest,Detroit,one_on_ones,2022,2,7
+Midwest,Detroit,one_on_ones,2023,2,9
+Midwest,Detroit,one_on_ones,2024,2,8
+Midwest,Detroit,one_on_ones,2022,3,9
+Midwest,Detroit,one_on_ones,2023,3,11
+Midwest,Detroit,one_on_ones,2024,3,10
+Midwest,Detroit,one_on_ones,2022,4,8
+Midwest,Detroit,one_on_ones,2023,4,10
+Midwest,Detroit,one_on_ones,2024,4,9
+Northeast,New York,events,2022,1,6
+Northeast,New York,events,2023,1,7
+Northeast,New York,events,2024,1,8
+Northeast,New York,events,2025,1,7
+Northeast,New York,events,2022,2,7
+Northeast,New York,events,2023,2,8
+Northeast,New York,events,2024,2,9
+Northeast,New York,events,2025,2,8
+Northeast,New York,events,2022,3,9
+Northeast,New York,events,2023,3,10
+Northeast,New York,events,2024,3,11
+Northeast,New York,events,2025,3,10
+Northeast,New York,events,2022,4,8
+Northeast,New York,events,2023,4,9
+Northeast,New York,events,2024,4,10
+Northeast,New York,new_teens,2022,1,20
+Northeast,New York,new_teens,2023,1,25
+Northeast,New York,new_teens,2024,1,22
+Northeast,New York,new_teens,2025,1,28
+Northeast,New York,new_teens,2022,2,25
+Northeast,New York,new_teens,2023,2,30
+Northeast,New York,new_teens,2024,2,28
+Northeast,New York,new_teens,2025,2,32
+Northeast,New York,new_teens,2022,3,30
+Northeast,New York,new_teens,2023,3,35
+Northeast,New York,new_teens,2024,3,28
+Northeast,New York,new_teens,2025,3,33
+Northeast,New York,new_teens,2022,4,22
+Northeast,New York,new_teens,2023,4,20
+Northeast,New York,new_teens,2024,4,25
+Northeast,New York,unique_attendance,2022,1,60
+Northeast,New York,unique_attendance,2023,1,70
+Northeast,New York,unique_attendance,2024,1,65
+Northeast,New York,unique_attendance,2025,1,72
+Northeast,New York,unique_attendance,2022,2,65
+Northeast,New York,unique_attendance,2023,2,75
+Northeast,New York,unique_attendance,2024,2,70
+Northeast,New York,unique_attendance,2025,2,78
+Northeast,New York,unique_attendance,2022,3,80
+Northeast,New York,unique_attendance,2023,3,85
+Northeast,New York,unique_attendance,2024,3,78
+Northeast,New York,unique_attendance,2025,3,82
+Northeast,New York,unique_attendance,2022,4,70
+Northeast,New York,unique_attendance,2023,4,75
+Northeast,New York,unique_attendance,2024,4,68
+Northeast,New York,one_on_ones,2022,1,15
+Northeast,New York,one_on_ones,2023,1,18
+Northeast,New York,one_on_ones,2024,1,20
+Northeast,New York,one_on_ones,2025,1,17
+Northeast,New York,one_on_ones,2022,2,18
+Northeast,New York,one_on_ones,2023,2,20
+Northeast,New York,one_on_ones,2024,2,22
+Northeast,New York,one_on_ones,2025,2,19
+Northeast,New York,one_on_ones,2022,3,20
+Northeast,New York,one_on_ones,2023,3,22
+Northeast,New York,one_on_ones,2024,3,18
+Northeast,New York,one_on_ones,2025,3,21
+Northeast,New York,one_on_ones,2022,4,16
+Northeast,New York,one_on_ones,2023,4,18
+Northeast,New York,one_on_ones,2024,4,20
+Southeast,Atlanta,events,2022,1,4
+Southeast,Atlanta,events,2023,1,5
+Southeast,Atlanta,events,2024,1,4
+Southeast,Atlanta,events,2022,2,5
+Southeast,Atlanta,events,2023,2,6
+Southeast,Atlanta,events,2024,2,5
+Southeast,Atlanta,events,2022,3,6
+Southeast,Atlanta,events,2023,3,7
+Southeast,Atlanta,events,2024,3,8
+Southeast,Atlanta,events,2022,4,5
+Southeast,Atlanta,events,2023,4,6
+Southeast,Atlanta,events,2024,4,7
+Southeast,Atlanta,new_teens,2022,1,12
+Southeast,Atlanta,new_teens,2023,1,14
+Southeast,Atlanta,new_teens,2024,1,10
+Southeast,Atlanta,new_teens,2022,2,14
+Southeast,Atlanta,new_teens,2023,2,16
+Southeast,Atlanta,new_teens,2024,2,12
+Southeast,Atlanta,new_teens,2022,3,18
+Southeast,Atlanta,new_teens,2023,3,20
+Southeast,Atlanta,new_teens,2024,3,15
+Southeast,Atlanta,new_teens,2022,4,14
+Southeast,Atlanta,new_teens,2023,4,16
+Southeast,Atlanta,new_teens,2024,4,18
+Southeast,Atlanta,unique_attendance,2022,1,30
+Southeast,Atlanta,unique_attendance,2023,1,35
+Southeast,Atlanta,unique_attendance,2024,1,32
+Southeast,Atlanta,unique_attendance,2022,2,35
+Southeast,Atlanta,unique_attendance,2023,2,40
+Southeast,Atlanta,unique_attendance,2024,2,38
+Southeast,Atlanta,unique_attendance,2022,3,42
+Southeast,Atlanta,unique_attendance,2023,3,48
+Southeast,Atlanta,unique_attendance,2024,3,45
+Southeast,Atlanta,unique_attendance,2022,4,38
+Southeast,Atlanta,unique_attendance,2023,4,42
+Southeast,Atlanta,unique_attendance,2024,4,40
+Southeast,Atlanta,one_on_ones,2022,1,7
+Southeast,Atlanta,one_on_ones,2023,1,9
+Southeast,Atlanta,one_on_ones,2024,1,8
+Southeast,Atlanta,one_on_ones,2022,2,9
+Southeast,Atlanta,one_on_ones,2023,2,11
+Southeast,Atlanta,one_on_ones,2024,2,10
+Southeast,Atlanta,one_on_ones,2022,3,10
+Southeast,Atlanta,one_on_ones,2023,3,12
+Southeast,Atlanta,one_on_ones,2024,3,11
+Southeast,Atlanta,one_on_ones,2022,4,9
+Southeast,Atlanta,one_on_ones,2023,4,10
+Southeast,Atlanta,one_on_ones,2024,4,11

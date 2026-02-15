@@ -1,0 +1,2506 @@
+[
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 1,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 1,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 1,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 1,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 2,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 2,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 2,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 2,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 3,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 3,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 3,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 3,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 4,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 4,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 4,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 4,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 5,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 5,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 5,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 6,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 6,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 6,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 7,
+    "value": 2
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 7,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 7,
+    "value": 2
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 8,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 8,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 8,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 9,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 9,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 9,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 10,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 10,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 10,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 11,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 11,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 11,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 12,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 12,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 12,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 1,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 1,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 1,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2025,
+    "month": 1,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 2,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 2,
+    "value": 18
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 2,
+    "value": 22
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2025,
+    "month": 2,
+    "value": 16
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 3,
+    "value": 20
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 3,
+    "value": 25
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 3,
+    "value": 18
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2025,
+    "month": 3,
+    "value": 22
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 4,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 4,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 4,
+    "value": 18
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 5,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 5,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 5,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 6,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 6,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 6,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 7,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 7,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 7,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 8,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 8,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 8,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 9,
+    "value": 18
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 9,
+    "value": 22
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 9,
+    "value": 20
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 10,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 10,
+    "value": 16
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 10,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 11,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 11,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 11,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 12,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 12,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 12,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 1,
+    "value": 35
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 1,
+    "value": 42
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 1,
+    "value": 38
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2025,
+    "month": 1,
+    "value": 45
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 2,
+    "value": 40
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 2,
+    "value": 48
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 2,
+    "value": 55
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2025,
+    "month": 2,
+    "value": 50
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 3,
+    "value": 55
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 3,
+    "value": 60
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 3,
+    "value": 52
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2025,
+    "month": 3,
+    "value": 58
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 4,
+    "value": 50
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 4,
+    "value": 55
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 4,
+    "value": 48
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 5,
+    "value": 35
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 5,
+    "value": 38
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 5,
+    "value": 32
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 6,
+    "value": 20
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 6,
+    "value": 25
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 6,
+    "value": 22
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 7,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 7,
+    "value": 18
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 7,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 8,
+    "value": 22
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 8,
+    "value": 28
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 8,
+    "value": 25
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 9,
+    "value": 50
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 9,
+    "value": 55
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 9,
+    "value": 52
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 10,
+    "value": 55
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 10,
+    "value": 60
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 10,
+    "value": 58
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 11,
+    "value": 45
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 11,
+    "value": 48
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 11,
+    "value": 50
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 12,
+    "value": 30
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 12,
+    "value": 28
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 12,
+    "value": 32
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 1,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 1,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 1,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2025,
+    "month": 1,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 2,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 2,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 2,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2025,
+    "month": 2,
+    "value": 13
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 3,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 3,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 3,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2025,
+    "month": 3,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 4,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 4,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 4,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 5,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 5,
+    "value": 9
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 5,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 6,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 6,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 6,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 7,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 7,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 7,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 8,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 8,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 8,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 9,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 9,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 9,
+    "value": 13
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 10,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 10,
+    "value": 16
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 10,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 11,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 11,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 11,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 12,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 12,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Chicago",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 12,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 1,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 1,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 1,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 2,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 2,
+    "value": 3
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 2,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 3,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 3,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 3,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 4,
+    "value": 5
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 4,
+    "value": 4
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 4,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 1,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 1,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 1,
+    "value": 9
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 2,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 2,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 2,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 3,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 3,
+    "value": 16
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 3,
+    "value": 15
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 4,
+    "value": 12
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 4,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 4,
+    "value": 14
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 1,
+    "value": 25
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 1,
+    "value": 30
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 1,
+    "value": 28
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 2,
+    "value": 28
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 2,
+    "value": 32
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 2,
+    "value": 30
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 3,
+    "value": 35
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 3,
+    "value": 40
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 3,
+    "value": 38
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 4,
+    "value": 32
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 4,
+    "value": 36
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 4,
+    "value": 34
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 1,
+    "value": 6
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 1,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 1,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 2,
+    "value": 7
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 2,
+    "value": 9
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 2,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 3,
+    "value": 9
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 3,
+    "value": 11
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 3,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 4,
+    "value": 8
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 4,
+    "value": 10
+  },
+  {
+    "region": "Midwest",
+    "chapter": "Detroit",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 4,
+    "value": 9
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 1,
+    "value": 6
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 1,
+    "value": 7
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 1,
+    "value": 8
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 1,
+    "value": 7
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 2,
+    "value": 7
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 2,
+    "value": 8
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 2,
+    "value": 9
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 2,
+    "value": 8
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 3,
+    "value": 9
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 3,
+    "value": 10
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 3,
+    "value": 11
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2025,
+    "month": 3,
+    "value": 10
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 4,
+    "value": 8
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 4,
+    "value": 9
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 4,
+    "value": 10
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 1,
+    "value": 20
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 1,
+    "value": 25
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 1,
+    "value": 22
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2025,
+    "month": 1,
+    "value": 28
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 2,
+    "value": 25
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 2,
+    "value": 30
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 2,
+    "value": 28
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2025,
+    "month": 2,
+    "value": 32
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 3,
+    "value": 30
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 3,
+    "value": 35
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 3,
+    "value": 28
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2025,
+    "month": 3,
+    "value": 33
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 4,
+    "value": 22
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 4,
+    "value": 20
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 4,
+    "value": 25
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 1,
+    "value": 60
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 1,
+    "value": 70
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 1,
+    "value": 65
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2025,
+    "month": 1,
+    "value": 72
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 2,
+    "value": 65
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 2,
+    "value": 75
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 2,
+    "value": 70
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2025,
+    "month": 2,
+    "value": 78
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 3,
+    "value": 80
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 3,
+    "value": 85
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 3,
+    "value": 78
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2025,
+    "month": 3,
+    "value": 82
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 4,
+    "value": 70
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 4,
+    "value": 75
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 4,
+    "value": 68
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 1,
+    "value": 15
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 1,
+    "value": 18
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 1,
+    "value": 20
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2025,
+    "month": 1,
+    "value": 17
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 2,
+    "value": 18
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 2,
+    "value": 20
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 2,
+    "value": 22
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2025,
+    "month": 2,
+    "value": 19
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 3,
+    "value": 20
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 3,
+    "value": 22
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 3,
+    "value": 18
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2025,
+    "month": 3,
+    "value": 21
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 4,
+    "value": 16
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 4,
+    "value": 18
+  },
+  {
+    "region": "Northeast",
+    "chapter": "New York",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 4,
+    "value": 20
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 1,
+    "value": 4
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 1,
+    "value": 5
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 1,
+    "value": 4
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 2,
+    "value": 5
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 2,
+    "value": 6
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 2,
+    "value": 5
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 3,
+    "value": 6
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 3,
+    "value": 7
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 3,
+    "value": 8
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2022,
+    "month": 4,
+    "value": 5
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2023,
+    "month": 4,
+    "value": 6
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "events",
+    "year": 2024,
+    "month": 4,
+    "value": 7
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 1,
+    "value": 12
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 1,
+    "value": 14
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 1,
+    "value": 10
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 2,
+    "value": 14
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 2,
+    "value": 16
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 2,
+    "value": 12
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 3,
+    "value": 18
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 3,
+    "value": 20
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 3,
+    "value": 15
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2022,
+    "month": 4,
+    "value": 14
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2023,
+    "month": 4,
+    "value": 16
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "new_teens",
+    "year": 2024,
+    "month": 4,
+    "value": 18
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 1,
+    "value": 30
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 1,
+    "value": 35
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 1,
+    "value": 32
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 2,
+    "value": 35
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 2,
+    "value": 40
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 2,
+    "value": 38
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 3,
+    "value": 42
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 3,
+    "value": 48
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 3,
+    "value": 45
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2022,
+    "month": 4,
+    "value": 38
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2023,
+    "month": 4,
+    "value": 42
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "unique_attendance",
+    "year": 2024,
+    "month": 4,
+    "value": 40
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 1,
+    "value": 7
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 1,
+    "value": 9
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 1,
+    "value": 8
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 2,
+    "value": 9
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 2,
+    "value": 11
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 2,
+    "value": 10
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 3,
+    "value": 10
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 3,
+    "value": 12
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 3,
+    "value": 11
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2022,
+    "month": 4,
+    "value": 9
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2023,
+    "month": 4,
+    "value": 10
+  },
+  {
+    "region": "Southeast",
+    "chapter": "Atlanta",
+    "metric_key": "one_on_ones",
+    "year": 2024,
+    "month": 4,
+    "value": 11
+  }
+]
