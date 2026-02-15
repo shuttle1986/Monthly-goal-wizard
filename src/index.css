@@ -24,6 +24,71 @@
   }
 }
 
+/* ── Range slider overlay (sits on top of RangeViz) ── */
+input[type="range"].range-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  margin: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+input[type="range"].range-overlay::-webkit-slider-runnable-track {
+  background: transparent;
+  height: 100%;
+}
+
+input[type="range"].range-overlay::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #818cf8, #4f46e5);
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgb(99 102 241 / 0.4);
+  cursor: grab;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+input[type="range"].range-overlay::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 12px rgb(99 102 241 / 0.55);
+}
+
+input[type="range"].range-overlay::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  transform: scale(1.2);
+  box-shadow: 0 2px 16px rgb(99 102 241 / 0.65);
+}
+
+input[type="range"].range-overlay::-moz-range-track {
+  background: transparent;
+  height: 100%;
+}
+
+input[type="range"].range-overlay::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #818cf8, #4f46e5);
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgb(99 102 241 / 0.4);
+  cursor: grab;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+input[type="range"].range-overlay::-moz-range-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 12px rgb(99 102 241 / 0.55);
+}
+
 /* ── Confetti ── */
 @keyframes confetti-fall {
   0% {
