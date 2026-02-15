@@ -188,7 +188,7 @@ function MetricCard({
             </span>
             <span className="font-bold text-brand-600 text-sm">{Math.round(stats.avg)}</span>
             <span className="text-gray-400">
-              ({stats.min}\u2013{stats.max} over {stats.countYears} yrs)
+              ({stats.min}–{stats.max} over {stats.countYears} yrs)
             </span>
             <VariabilityBadge variability={stats.variability} />
           </div>
