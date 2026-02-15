@@ -9,17 +9,16 @@ export default function RangeViz({ stats }: RangeVizProps) {
   const range = max - min;
   if (range === 0) {
     return (
-      <div className="flex items-center gap-2 text-xs text-gray-500">
-        <div className="relative w-full h-3 bg-gray-100 rounded-full overflow-hidden">
-          <div className="absolute left-1/2 top-0 w-2.5 h-2.5 -translate-x-1/2 mt-[1px] rounded-full bg-brand-500" />
+      <div className="flex items-center gap-2.5 text-xs text-gray-500">
+        <div className="relative w-full h-4 bg-gradient-to-r from-brand-50 to-brand-100 rounded-full overflow-hidden">
+          <div className="absolute left-1/2 top-1/2 w-3 h-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-brand-400 to-brand-600 ring-2 ring-white shadow-sm" />
         </div>
-        <span className="whitespace-nowrap tabular-nums">{Math.round(avg)}</span>
+        <span className="whitespace-nowrap tabular-nums font-semibold text-brand-600">{Math.round(avg)}</span>
       </div>
     );
   }
 
-  // Pad the visual range a little
-  const pad = range * 0.15;
+  const pad = range * 0.2;
   const vMin = min - pad;
   const vMax = max + pad;
   const vRange = vMax - vMin;
@@ -29,23 +28,23 @@ export default function RangeViz({ stats }: RangeVizProps) {
   const pctAvg = ((avg - vMin) / vRange) * 100;
 
   return (
-    <div className="flex items-center gap-2 text-xs text-gray-500">
-      <span className="tabular-nums w-6 text-right">{Math.round(min)}</span>
-      <div className="relative flex-1 h-3">
-        {/* Track */}
-        <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 h-1 bg-gray-200 rounded-full" />
+    <div className="flex items-center gap-2.5 text-xs text-gray-500">
+      <span className="tabular-nums w-7 text-right font-medium">{Math.round(min)}</span>
+      <div className="relative flex-1 h-4">
+        {/* Track background */}
+        <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 h-1.5 bg-gray-100 rounded-full" />
         {/* Range bar */}
         <div
-          className="absolute top-1/2 -translate-y-1/2 h-2 bg-brand-100 rounded-full"
+          className="absolute top-1/2 -translate-y-1/2 h-2.5 bg-gradient-to-r from-brand-100 to-brand-200 rounded-full"
           style={{ left: `${pctMin}%`, width: `${pctMax - pctMin}%` }}
         />
         {/* Avg dot */}
         <div
-          className="absolute top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-brand-500 ring-2 ring-white"
+          className="absolute top-1/2 w-3 h-3 rounded-full bg-gradient-to-br from-brand-400 to-brand-600 ring-2 ring-white shadow-sm"
           style={{ left: `${pctAvg}%`, transform: 'translate(-50%, -50%)' }}
         />
       </div>
-      <span className="tabular-nums w-6">{Math.round(max)}</span>
+      <span className="tabular-nums w-7 font-medium">{Math.round(max)}</span>
     </div>
   );
 }

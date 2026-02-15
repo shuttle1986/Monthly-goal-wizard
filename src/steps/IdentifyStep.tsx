@@ -30,20 +30,22 @@ export default function IdentifyStep() {
   }
 
   return (
-    <div className="max-w-lg mx-auto px-4 pt-6 pb-24">
-      <h2 className="text-xl font-bold text-gray-900 mb-1">About You</h2>
-      <p className="text-sm text-gray-500 mb-6">
-        We'll use this to pull relevant historical data.
-      </p>
+    <div className="max-w-lg mx-auto px-4 pt-6 pb-28 animate-slide-up">
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 tracking-tight">About You</h2>
+        <p className="text-sm text-gray-400 mt-1">
+          We'll use this to pull relevant historical data.
+        </p>
+      </div>
 
       <div className="space-y-5">
         {/* Region */}
         <div>
-          <label htmlFor="region" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="region" className="block text-sm font-semibold text-gray-700 mb-1.5">
             Region
           </label>
           {lockedScope ? (
-            <div className="input-field bg-gray-50 text-gray-600 cursor-not-allowed">
+            <div className="input-field bg-gray-50 text-gray-500 cursor-not-allowed">
               {region}
             </div>
           ) : (
@@ -69,11 +71,11 @@ export default function IdentifyStep() {
         {/* Chapter */}
         {hasChapters && (
           <div>
-            <label htmlFor="chapter" className="block text-sm font-medium text-gray-700 mb-1">
+            <label htmlFor="chapter" className="block text-sm font-semibold text-gray-700 mb-1.5">
               Chapter
             </label>
             {lockedScope ? (
-              <div className="input-field bg-gray-50 text-gray-600 cursor-not-allowed">
+              <div className="input-field bg-gray-50 text-gray-500 cursor-not-allowed">
                 {chapter}
               </div>
             ) : (
@@ -96,7 +98,7 @@ export default function IdentifyStep() {
 
         {/* Staff Name */}
         <div>
-          <label htmlFor="staffName" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="staffName" className="block text-sm font-semibold text-gray-700 mb-1.5">
             Your Name
           </label>
           <input
@@ -112,29 +114,35 @@ export default function IdentifyStep() {
 
         {/* Month Window */}
         <div>
-          <span className="block text-sm font-medium text-gray-700 mb-2">Goal Window</span>
-          <div className="flex gap-2">
+          <span className="block text-sm font-semibold text-gray-700 mb-2">Goal Window</span>
+          <div className="flex gap-3">
             <button
               type="button"
               onClick={() => setTwoMonthMode(true)}
-              className={`flex-1 rounded-lg border px-4 py-3 text-sm font-medium transition-colors ${
+              className={`flex-1 rounded-xl border-2 px-4 py-3.5 text-sm font-semibold transition-all ${
                 twoMonthMode
-                  ? 'border-brand-500 bg-brand-50 text-brand-700'
-                  : 'border-gray-300 bg-white text-gray-600 hover:bg-gray-50'
+                  ? 'border-brand-500 bg-brand-50 text-brand-700 shadow-glow'
+                  : 'border-gray-200 bg-white text-gray-500 hover:border-gray-300 hover:bg-gray-50'
               }`}
             >
-              Two months
+              <div>Two months</div>
+              <div className={`text-[11px] font-normal mt-0.5 ${twoMonthMode ? 'text-brand-400' : 'text-gray-400'}`}>
+                Recommended
+              </div>
             </button>
             <button
               type="button"
               onClick={() => setTwoMonthMode(false)}
-              className={`flex-1 rounded-lg border px-4 py-3 text-sm font-medium transition-colors ${
+              className={`flex-1 rounded-xl border-2 px-4 py-3.5 text-sm font-semibold transition-all ${
                 !twoMonthMode
-                  ? 'border-brand-500 bg-brand-50 text-brand-700'
-                  : 'border-gray-300 bg-white text-gray-600 hover:bg-gray-50'
+                  ? 'border-brand-500 bg-brand-50 text-brand-700 shadow-glow'
+                  : 'border-gray-200 bg-white text-gray-500 hover:border-gray-300 hover:bg-gray-50'
               }`}
             >
-              Just upcoming
+              <div>Just upcoming</div>
+              <div className={`text-[11px] font-normal mt-0.5 ${!twoMonthMode ? 'text-brand-400' : 'text-gray-400'}`}>
+                Single month
+              </div>
             </button>
           </div>
         </div>
