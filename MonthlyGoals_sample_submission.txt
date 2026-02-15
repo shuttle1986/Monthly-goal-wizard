@@ -1,0 +1,43 @@
+NCSY Monthly Goals Submission
+Region: Midwest
+Chapter: Chicago
+Staff: Jane Smith
+Window: 2026-03, 2026-04
+Submitted: 2/15/2026, 10:00:00 AM
+
+March 2026
+  - Events Held: 7 (Reasons: Special program)
+  - New Teens: 22
+  - Unique Attendance: 58
+  - One-on-Ones: 14 (Reasons: Staffing change) (Note: New advisor starting mid-month)
+
+April 2026
+  - Events Held: 6
+  - New Teens: 15 (Reasons: Seasonality)
+  - Unique Attendance: 50
+  - One-on-Ones: 12
+
+---TECH (do not edit)---
+{
+  "submissionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "createdAtIso": "2026-02-15T10:00:00.000Z",
+  "region": "Midwest",
+  "chapter": "Chicago",
+  "staff": "Jane Smith",
+  "months": ["2026-03", "2026-04"],
+  "metricsByMonth": {
+    "2026-03": [
+      { "key": "events", "label": "Events Held", "goalValue": 7, "reasons": ["Special program"], "note": "" },
+      { "key": "new_teens", "label": "New Teens", "goalValue": 22, "reasons": [], "note": "" },
+      { "key": "unique_attendance", "label": "Unique Attendance", "goalValue": 58, "reasons": [], "note": "" },
+      { "key": "one_on_ones", "label": "One-on-Ones", "goalValue": 14, "reasons": ["Staffing change"], "note": "New advisor starting mid-month" }
+    ],
+    "2026-04": [
+      { "key": "events", "label": "Events Held", "goalValue": 6, "reasons": [], "note": "" },
+      { "key": "new_teens", "label": "New Teens", "goalValue": 15, "reasons": ["Seasonality"], "note": "" },
+      { "key": "unique_attendance", "label": "Unique Attendance", "goalValue": 50, "reasons": [], "note": "" },
+      { "key": "one_on_ones", "label": "One-on-Ones", "goalValue": 12, "reasons": [], "note": "" }
+    ]
+  },
+  "appVersion": "1.0.0"
+}
