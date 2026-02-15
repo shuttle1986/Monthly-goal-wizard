@@ -2,17 +2,19 @@ import { useEffect, useState } from 'react';
 
 export default function Confetti() {
   const [particles, setParticles] = useState<
-    { id: number; x: number; delay: number; color: string; size: number }[]
+    { id: number; x: number; delay: number; color: string; size: number; shape: string }[]
   >([]);
 
   useEffect(() => {
-    const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'];
-    const p = Array.from({ length: 50 }, (_, i) => ({
+    const colors = ['#6366f1', '#8b5cf6', '#ec4899', '#f59e0b', '#10b981', '#06b6d4', '#f43f5e'];
+    const shapes = ['50%', '3px', '30%'];
+    const p = Array.from({ length: 60 }, (_, i) => ({
       id: i,
       x: Math.random() * 100,
-      delay: Math.random() * 2,
+      delay: Math.random() * 1.5,
       color: colors[Math.floor(Math.random() * colors.length)],
-      size: 4 + Math.random() * 6,
+      size: 5 + Math.random() * 8,
+      shape: shapes[Math.floor(Math.random() * shapes.length)],
     }));
     setParticles(p);
   }, []);
@@ -30,7 +32,7 @@ export default function Confetti() {
             width: p.size,
             height: p.size,
             backgroundColor: p.color,
-            borderRadius: Math.random() > 0.5 ? '50%' : '2px',
+            borderRadius: p.shape,
           }}
         />
       ))}

@@ -5,17 +5,20 @@ interface Props {
 const config = {
   consistent: {
     label: 'Consistent',
-    className: 'bg-green-100 text-green-800',
+    icon: '\u2713',
+    className: 'bg-emerald-50 text-emerald-700 ring-1 ring-emerald-200',
     tooltip: 'This metric has been very steady across past years for this month.',
   },
   mixed: {
     label: 'Mixed',
-    className: 'bg-yellow-100 text-yellow-800',
+    icon: '\u223C',
+    className: 'bg-amber-50 text-amber-700 ring-1 ring-amber-200',
     tooltip: 'This metric has shown moderate variation year-to-year for this month.',
   },
   volatile: {
     label: 'Volatile',
-    className: 'bg-red-100 text-red-800',
+    icon: '\u26A0',
+    className: 'bg-rose-50 text-rose-700 ring-1 ring-rose-200',
     tooltip: 'This metric has varied significantly year-to-year. Consider context when setting your goal.',
   },
 };
@@ -25,9 +28,10 @@ export default function VariabilityBadge({ variability }: Props) {
 
   return (
     <span
-      className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium cursor-help ${c.className}`}
+      className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-semibold cursor-help ${c.className}`}
       title={c.tooltip}
     >
+      <span aria-hidden="true">{c.icon}</span>
       {c.label}
     </span>
   );
