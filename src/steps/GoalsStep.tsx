@@ -159,13 +159,6 @@ function MetricCard({
     onValueChange(next);
   }
 
-  function handleSliderChange(raw: string) {
-    const num = parseInt(raw, 10);
-    if (!isNaN(num)) {
-      onValueChange(num);
-    }
-  }
-
   function toggleReason(chip: string) {
     if (reasons.includes(chip)) {
       onReasonsChange(reasons.filter((r) => r !== chip));
@@ -173,8 +166,6 @@ function MetricCard({
       onReasonsChange([...reasons, chip]);
     }
   }
-
-  const currentSliderValue = goalValue ?? defaultAvg ?? 0;
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-card hover:shadow-card-hover transition-shadow p-5">
@@ -201,7 +192,13 @@ function MetricCard({
             </span>
             <VariabilityBadge variability={stats.variability} />
           </div>
-          <RangeViz stats={stats} />
+          <RangeViz
+            stats={stats}
+            value={goalValue ?? defaultAvg ?? 0}
+            onChange={onValueChange}
+            sliderMin={sliderMin}
+            sliderMax={sliderMax}
+          />
         </div>
       ) : (
         <div className="bg-amber-50/60 rounded-xl p-3.5 mb-4 flex items-start gap-2">
@@ -242,24 +239,6 @@ function MetricCard({
         >
           +
         </button>
-      </div>
-
-      {/* Slider */}
-      <div className="px-1 mb-3">
-        <input
-          type="range"
-          className="goal-slider"
-          min={sliderMin}
-          max={sliderMax}
-          step={1}
-          value={currentSliderValue}
-          onChange={(e) => handleSliderChange(e.target.value)}
-          aria-label={`${metric.label} slider`}
-        />
-        <div className="flex justify-between text-[10px] text-gray-300 mt-1 px-0.5">
-          <span>{sliderMin}</span>
-          <span>{sliderMax}</span>
-        </div>
       </div>
 
       {/* Use avg button */}
