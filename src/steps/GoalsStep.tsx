@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { useWizard } from '../hooks/useWizard';
 import { METRICS, MONTH_NAMES, REASON_CHIPS } from '../config/appConfig';
 import { computeStats, roundGoal } from '../utils/history';
@@ -133,15 +133,6 @@ function MetricCard({
   const defaultAvg = stats ? roundGoal(stats.avg) : null;
   const displayValue = goalValue !== null ? goalValue : '';
 
-  // Compute a sensible slider range
-  const sliderMin = metric.goalMin;
-  const sliderMax = useMemo(() => {
-    if (stats) {
-      return Math.max(metric.suggestedMax, Math.ceil(stats.max * 2.5));
-    }
-    return metric.suggestedMax;
-  }, [stats, metric.suggestedMax]);
-
   function handleInputChange(raw: string) {
     if (raw === '') {
       onValueChange(null);
@@ -196,8 +187,6 @@ function MetricCard({
             stats={stats}
             value={goalValue ?? defaultAvg ?? 0}
             onChange={onValueChange}
-            sliderMin={sliderMin}
-            sliderMax={sliderMax}
           />
         </div>
       ) : (
