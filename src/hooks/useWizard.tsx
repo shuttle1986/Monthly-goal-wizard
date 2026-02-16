@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
-import type { HistoryRow, GoalsByMonth, MonthGoal } from '../types';
+import type { HistoryRow, EventRow, GoalsByMonth, MonthGoal } from '../types';
 import { METRICS } from '../config/appConfig';
-import { loadHistory } from '../utils/history';
+import { loadHistory, loadEvents } from '../utils/history';
 import { loadProfile, saveProfile, loadDraft, saveDraft, clearDraft } from '../utils/storage';
 import { getUpcomingMonths } from '../utils/months';
 
@@ -14,6 +14,7 @@ interface WizardState {
   months: string[];
   goalsByMonth: GoalsByMonth;
   history: HistoryRow[];
+  events: EventRow[];
   historyLoading: boolean;
   lockedScope: boolean;
   urlRegion: string;
@@ -55,6 +56,7 @@ export function WizardProvider({ children }: { children: React.ReactNode }) {
   const [twoMonthMode, setTwoMonthMode] = useState(true);
   const [goalsByMonth, setGoalsByMonth] = useState<GoalsByMonth>({});
   const [history, setHistory] = useState<HistoryRow[]>([]);
+  const [events, setEvents] = useState<EventRow[]>([]);
   const [historyLoading, setHistoryLoading] = useState(true);
 
   const months = twoMonthMode ? upcoming.twoMonths : upcoming.oneMonth;
@@ -62,9 +64,12 @@ export function WizardProvider({ children }: { children: React.ReactNode }) {
   // Load history on mount
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
-    loadHistory(base)
-      .then(setHistory)
-      .catch((err) => console.warn('Could not load history:', err))
+    Promise.all([
+      loadHistory(base),
+      loadEvents(base),
+    ])
+      .then(([h, e]) => { setHistory(h); setEvents(e); })
+      .catch((err) => console.warn('Could not load data:', err))
       .finally(() => setHistoryLoading(false));
   }, []);
 
@@ -166,6 +171,7 @@ export function WizardProvider({ children }: { children: React.ReactNode }) {
     months,
     goalsByMonth,
     history,
+    events,
     historyLoading,
     lockedScope,
     urlRegion,

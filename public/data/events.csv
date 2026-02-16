@@ -1,0 +1,53 @@
+region,chapter,year,month,event_name,metric_key,value
+Midwest,Chicago,2022,3,Purim Bash,unique_attendance,32
+Midwest,Chicago,2023,3,Purim Mega Event,unique_attendance,38
+Midwest,Chicago,2024,3,Purim Carnival,unique_attendance,30
+Midwest,Chicago,2022,9,Back to School Kickoff,new_teens,12
+Midwest,Chicago,2023,9,Back to School Kickoff,new_teens,15
+Midwest,Chicago,2024,9,Back to School BBQ,new_teens,14
+Midwest,Chicago,2022,10,Sukkot Open House,unique_attendance,35
+Midwest,Chicago,2023,10,Sukkot Open House,unique_attendance,40
+Midwest,Chicago,2024,10,Sukkot Festival,unique_attendance,38
+Midwest,Chicago,2022,12,Chanukah Party,events,2
+Midwest,Chicago,2023,12,Chanukah Party,events,2
+Midwest,Chicago,2024,12,Chanukah Bash,events,2
+Midwest,Chicago,2022,12,Chanukah Party,unique_attendance,22
+Midwest,Chicago,2023,12,Chanukah Party,unique_attendance,20
+Midwest,Chicago,2024,12,Chanukah Bash,unique_attendance,24
+Midwest,Chicago,2022,1,Winter Retreat,unique_attendance,25
+Midwest,Chicago,2023,1,Winter Retreat,unique_attendance,30
+Midwest,Chicago,2024,1,Winter Retreat,unique_attendance,28
+Midwest,Chicago,2025,1,Winter Retreat,unique_attendance,32
+Midwest,Chicago,2022,4,Passover Seder,events,2
+Midwest,Chicago,2023,4,Passover Seder,events,3
+Midwest,Chicago,2024,4,Passover Program,events,2
+Midwest,Chicago,2022,4,Passover Seder,unique_attendance,30
+Midwest,Chicago,2023,4,Passover Seder,unique_attendance,35
+Midwest,Chicago,2024,4,Passover Program,unique_attendance,28
+Midwest,Detroit,2022,3,Purim Party,unique_attendance,22
+Midwest,Detroit,2023,3,Purim Party,unique_attendance,26
+Midwest,Detroit,2024,3,Purim Celebration,unique_attendance,24
+Midwest,Detroit,2022,1,Winter Shabbaton,new_teens,5
+Midwest,Detroit,2023,1,Winter Shabbaton,new_teens,6
+Midwest,Detroit,2024,1,Winter Shabbaton,new_teens,5
+Northeast,New York,2022,3,Purim Extravaganza,unique_attendance,50
+Northeast,New York,2023,3,Purim Extravaganza,unique_attendance,55
+Northeast,New York,2024,3,Purim Extravaganza,unique_attendance,48
+Northeast,New York,2022,9,Welcome Back BBQ,new_teens,14
+Northeast,New York,2023,9,Welcome Back BBQ,new_teens,18
+Northeast,New York,2024,9,Welcome Back BBQ,new_teens,16
+Northeast,New York,2022,12,Chanukah Gala,unique_attendance,45
+Northeast,New York,2023,12,Chanukah Gala,unique_attendance,50
+Northeast,New York,2024,12,Chanukah Gala,unique_attendance,48
+Northeast,New York,2022,4,Passover Experience,unique_attendance,45
+Northeast,New York,2023,4,Passover Experience,unique_attendance,50
+Northeast,New York,2024,4,Passover Experience,unique_attendance,42
+Southeast,Atlanta,2022,3,Purim Party,unique_attendance,28
+Southeast,Atlanta,2023,3,Purim Party,unique_attendance,32
+Southeast,Atlanta,2024,3,Purim Carnival,unique_attendance,30
+Southeast,Atlanta,2022,9,Fall Kickoff,new_teens,12
+Southeast,Atlanta,2023,9,Fall Kickoff,new_teens,10
+Southeast,Atlanta,2024,9,Fall Kickoff,new_teens,11
+Southeast,Atlanta,2022,12,Chanukah Event,unique_attendance,20
+Southeast,Atlanta,2023,12,Chanukah Event,unique_attendance,22
+Southeast,Atlanta,2024,12,Chanukah Celebration,unique_attendance,24
