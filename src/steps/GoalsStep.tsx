@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { useWizard } from '../hooks/useWizard';
 import { METRICS, MONTH_NAMES, REASON_CHIPS } from '../config/appConfig';
-import { computeStats, roundGoal } from '../utils/history';
+import { computeStats, roundGoal, getNeighborMonths } from '../utils/history';
 import { parseYearMonth } from '../utils/months';
+import type { NeighborMonth } from '../types';
 import StickyNav from '../components/StickyNav';
 import RangeViz from '../components/RangeViz';
 import VariabilityBadge from '../components/VariabilityBadge';
+import MonthSparkline from '../components/MonthSparkline';
 
 export default function GoalsStep() {
   const {
@@ -13,6 +15,7 @@ export default function GoalsStep() {
     chapter,
     months,
     history,
+    events,
     goalsByMonth,
     setGoalValue,
     setGoalReasons,
@@ -76,6 +79,7 @@ export default function GoalsStep() {
         {METRICS.map((metric, idx) => {
           const goal = currentGoals.find((g) => g.key === metric.key);
           const stats = computeStats(history, region, chapter, metric.key, monthNum);
+          const neighbors = getNeighborMonths(history, events, region, chapter, metric.key, monthNum);
 
           return (
             <div key={metric.key} className="animate-slide-up" style={{ animationDelay: `${idx * 60}ms` }}>
@@ -83,6 +87,8 @@ export default function GoalsStep() {
                 metric={metric}
                 stats={stats}
                 monthLabel={monthLabel}
+                monthNum={monthNum}
+                neighbors={neighbors}
                 goalValue={goal?.goalValue ?? null}
                 reasons={goal?.reasons || []}
                 note={goal?.note || ''}
@@ -109,6 +115,8 @@ interface MetricCardProps {
   metric: (typeof METRICS)[number];
   stats: ReturnType<typeof computeStats>;
   monthLabel: string;
+  monthNum: number;
+  neighbors: NeighborMonth[];
   goalValue: number | null;
   reasons: string[];
   note: string;
@@ -121,6 +129,8 @@ function MetricCard({
   metric,
   stats,
   monthLabel,
+  monthNum,
+  neighbors,
   goalValue,
   reasons,
   note,
@@ -129,6 +139,7 @@ function MetricCard({
   onNoteChange,
 }: MetricCardProps) {
   const [showReasons, setShowReasons] = useState(reasons.length > 0 || note.length > 0);
+  const [showTrend, setShowTrend] = useState(false);
 
   const defaultAvg = stats ? roundGoal(stats.avg) : null;
   const displayValue = goalValue !== null ? goalValue : '';
@@ -188,6 +199,27 @@ function MetricCard({
             value={goalValue ?? defaultAvg ?? 0}
             onChange={onValueChange}
           />
+          {/* Expandable seasonal trend */}
+          {neighbors.length > 0 && (
+            <div className="mt-2 pt-2 border-t border-gray-100/60">
+              <button
+                type="button"
+                onClick={() => setShowTrend(!showTrend)}
+                className="text-[11px] text-gray-400 hover:text-brand-500 transition-colors flex items-center gap-1"
+              >
+                <svg
+                  className={`w-3 h-3 transition-transform ${showTrend ? 'rotate-90' : ''}`}
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+                Seasonal context
+              </button>
+              {showTrend && (
+                <MonthSparkline neighbors={neighbors} currentMonth={monthNum} />
+              )}
+            </div>
+          )}
         </div>
       ) : (
         <div className="bg-amber-50/60 rounded-xl p-3.5 mb-4 flex items-start gap-2">

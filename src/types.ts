@@ -17,6 +17,23 @@ export interface MetricStats {
   values: number[];
 }
 
+export interface EventRow {
+  region: string;
+  chapter: string;
+  year: number;
+  month: number;
+  event_name: string;
+  metric_key: string;
+  value: number;
+}
+
+export interface NeighborMonth {
+  month: number;
+  monthLabel: string;
+  avg: number;
+  events: { name: string; year: number; value: number }[];
+}
+
 export interface MonthGoal {
   key: string;
   label: string;
