@@ -144,6 +144,9 @@ function MetricCard({
   const defaultAvg = stats ? roundGoal(stats.avg) : null;
   const displayValue = goalValue !== null ? goalValue : '';
 
+  // Below-baseline detection: if goal is set and below the historical avg
+  const belowBaseline = stats != null && goalValue !== null && goalValue < stats.avg;
+
   function handleInputChange(raw: string) {
     if (raw === '') {
       onValueChange(null);
@@ -262,6 +265,18 @@ function MetricCard({
         </button>
       </div>
 
+      {/* Below-baseline warning */}
+      {belowBaseline && (
+        <div className="flex items-start gap-2 bg-amber-50/70 rounded-lg px-3 py-2 mb-2">
+          <svg className="w-3.5 h-3.5 text-amber-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <p className="text-[11px] text-amber-700 leading-relaxed">
+            This is below the typical average ({Math.round(stats!.avg)}). Please add a reason below.
+          </p>
+        </div>
+      )}
+
       {/* Use avg button */}
       {defaultAvg !== null && goalValue !== null && goalValue !== defaultAvg && (
         <button
@@ -276,8 +291,8 @@ function MetricCard({
         </button>
       )}
 
-      {/* Reasons */}
-      {!showReasons ? (
+      {/* Reasons — auto-expanded when below baseline */}
+      {!showReasons && !belowBaseline ? (
         <button
           type="button"
           onClick={() => setShowReasons(true)}

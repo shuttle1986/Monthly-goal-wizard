@@ -16,15 +16,7 @@ export default function RangeViz({
   const { min, max, avg } = stats;
   const histRange = max - min || 1;
 
-  // Slider visual range: pad 1.5x the historical range on each side, floor at 0
-  const trackMin = Math.max(0, Math.floor(min - histRange * 1.5));
-  const trackMax = Math.ceil(max + histRange * 1.5);
-  const trackRange = trackMax - trackMin || 1;
-
-  // Everything uses this one coordinate system
-  const pct = (v: number) => ((v - trackMin) / trackRange) * 100;
-
-  // Non-interactive: use padded visual range so the bar fills nicely
+  // ── Non-interactive (read-only, e.g. ReviewStep) ──
   if (!interactive) {
     const pad = histRange * 0.15;
     const vMin = min - pad;
@@ -50,28 +42,68 @@ export default function RangeViz({
     );
   }
 
-  // Clamp value to track range for the slider, but don't clamp the actual value
+  // ── Interactive: Baseline → Growth runway ──
+  // Track starts at historical min, ends at a growth ceiling
+  // No visible runway below baseline.
+  const trackMin = min;
+  const growthCeiling = Math.ceil(max + histRange * 1.0); // ~2x the spread above max
+  const trackMax = growthCeiling;
+  const trackRange = trackMax - trackMin || 1;
+
+  const pct = (v: number) => Math.max(0, Math.min(100, ((v - trackMin) / trackRange) * 100));
+
+  // Growth markers
+  const g10 = Math.round(max * 1.1);
+  const g25 = Math.round(max * 1.25);
+
+  // Baseline occupies the left portion, growth runway is the rest
+  const baselineEnd = pct(max);
+  const pctAvg = pct(avg);
+
   const clampedValue = Math.max(trackMin, Math.min(trackMax, value ?? avg));
 
   return (
-    <div className="flex items-center gap-2.5 text-xs text-gray-500">
-      <span className="tabular-nums w-7 text-right font-medium">{Math.round(min)}</span>
+    <div>
+      {/* Labels */}
+      <div className="flex items-center justify-between text-[10px] text-gray-400 mb-1 px-0.5">
+        <span className="font-medium text-gray-500">Baseline</span>
+        <span className="font-medium text-emerald-500">Growth</span>
+      </div>
 
-      <div className="relative flex-1 h-6">
-        {/* Track */}
-        <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 h-1.5 bg-gray-100 rounded-full" />
-        {/* Historical range bar */}
+      <div className="relative h-7">
+        {/* Baseline band (min → max) */}
         <div
-          className="absolute top-1/2 -translate-y-1/2 h-2.5 bg-gradient-to-r from-brand-100 to-brand-200 rounded-full"
-          style={{ left: `${pct(min)}%`, width: `${Math.max(0, pct(max) - pct(min))}%` }}
+          className="absolute top-1/2 -translate-y-1/2 h-2.5 bg-gradient-to-r from-brand-100 to-brand-200 rounded-l-full"
+          style={{ left: 0, width: `${baselineEnd}%` }}
         />
-        {/* Avg tick */}
+        {/* Growth runway (max → ceiling) */}
         <div
-          className="absolute top-1/2 w-0.5 h-4 -translate-y-1/2 bg-brand-300 rounded-full opacity-50"
-          style={{ left: `${pct(avg)}%` }}
+          className="absolute top-1/2 -translate-y-1/2 h-2.5 bg-gradient-to-r from-emerald-50 to-emerald-100 rounded-r-full"
+          style={{ left: `${baselineEnd}%`, width: `${100 - baselineEnd}%` }}
+        />
+        {/* Avg marker */}
+        <div
+          className="absolute top-1/2 w-0.5 h-4 -translate-y-1/2 bg-brand-400 rounded-full opacity-60"
+          style={{ left: `${pctAvg}%` }}
           title={`Avg: ${Math.round(avg)}`}
         />
-        {/* Native range input — same trackMin/trackMax as the visuals */}
+        {/* +10% tick */}
+        {g10 <= trackMax && (
+          <div
+            className="absolute top-1/2 w-px h-3 -translate-y-1/2 bg-emerald-300 opacity-50"
+            style={{ left: `${pct(g10)}%` }}
+            title={`+10%: ${g10}`}
+          />
+        )}
+        {/* +25% tick */}
+        {g25 <= trackMax && (
+          <div
+            className="absolute top-1/2 w-px h-3 -translate-y-1/2 bg-emerald-300 opacity-50"
+            style={{ left: `${pct(g25)}%` }}
+            title={`+25%: ${g25}`}
+          />
+        )}
+        {/* Native range slider */}
         <input
           type="range"
           className="range-overlay"
@@ -83,7 +115,14 @@ export default function RangeViz({
         />
       </div>
 
-      <span className="tabular-nums w-7 font-medium">{Math.round(max)}</span>
+      {/* Scale labels */}
+      <div className="flex items-center justify-between text-[10px] text-gray-300 mt-0.5 px-0.5">
+        <span>{Math.round(min)}</span>
+        <span className="text-gray-400 font-medium" title="Historical avg">{Math.round(avg)}</span>
+        <span>{Math.round(max)}</span>
+        {g10 <= trackMax && <span className="text-emerald-400">+10%</span>}
+        <span>{trackMax}</span>
+      </div>
     </div>
   );
 }
