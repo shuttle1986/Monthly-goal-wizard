@@ -1,0 +1,93 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "People User ID",
+            "name": "peopleUserId",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "People Display Name",
+            "name": "peopleDisplayName",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "People Email",
+            "name": "peopleEmail",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Tags Tag ID",
+            "name": "tagsTagId",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Tags Tag Name",
+            "name": "tagsTagName",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Assign User ID",
+            "name": "assignUserId",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Assign Tag ID",
+            "name": "assignTagId",
+            "kind": "Grouping"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "peopleUserId":      { "min": 1, "max": 1 },
+                    "peopleDisplayName": { "min": 0, "max": 1 },
+                    "peopleEmail":       { "min": 0, "max": 1 },
+                    "tagsTagId":         { "min": 1, "max": 1 },
+                    "tagsTagName":       { "min": 1, "max": 1 },
+                    "assignUserId":      { "min": 0, "max": 1 },
+                    "assignTagId":       { "min": 0, "max": 1 }
+                }
+            ],
+            "table": {
+                "rows": {
+                    "select": [
+                        { "for": { "in": "peopleUserId"      } },
+                        { "for": { "in": "peopleDisplayName" } },
+                        { "for": { "in": "peopleEmail"       } },
+                        { "for": { "in": "tagsTagId"         } },
+                        { "for": { "in": "tagsTagName"       } },
+                        { "for": { "in": "assignUserId"      } },
+                        { "for": { "in": "assignTagId"       } }
+                    ],
+                    "dataReductionAlgorithm": { "top": { "count": 30000 } }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "api": {
+            "properties": {
+                "endpointUrl": { "type": { "text": true } },
+                "timeoutMs":   { "type": { "numeric": true } }
+            }
+        },
+        "behavior": {
+            "properties": {
+                "maxScope": { "type": { "numeric": true } }
+            }
+        },
+        "internal": {
+            "properties": {
+                "lastBatchId": { "type": { "text": true } }
+            }
+        }
+    },
+    "privileges": [
+        {
+            "name": "WebAccess",
+            "essential": true,
+            "parameters": ["*"]
+        }
+    ]
+}

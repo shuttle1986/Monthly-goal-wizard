@@ -1,0 +1,190 @@
+// OU Tag Manager – minimal styles
+// Uses BEM-style .otm- prefix to avoid collisions
+
+@font-base:   "Segoe UI", Tahoma, sans-serif;
+@color-text:  #252423;
+@color-muted: #605e5c;
+@color-border:#e1dfdd;
+@color-blue:  #0078d4;
+@color-blue-h:#106ebe;
+@color-ok:    #107c10;
+@color-err:   #a4262c;
+@color-bg-btn:#f3f2f1;
+
+.otm-root {
+    font-family: @font-base;
+    font-size: 12px;
+    color: @color-text;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 100%;
+
+    &.otm-root--busy {
+        pointer-events: none;
+        opacity: 0.65;
+    }
+}
+
+.otm-header {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid @color-blue;
+}
+
+.otm-status {
+    min-height: 18px;
+    font-size: 11px;
+    margin-bottom: 6px;
+    word-break: break-word;
+
+    &.otm-status--success { color: @color-ok;  font-weight: 600; }
+    &.otm-status--error   { color: @color-err; font-weight: 600; }
+}
+
+.otm-scope-row {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.otm-scope-count {
+    color: @color-blue;
+}
+
+.otm-section {
+    margin-bottom: 10px;
+}
+
+.otm-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 11px;
+    color: @color-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.otm-input,
+.otm-select {
+    display: block;
+    width: 100%;
+    padding: 5px 7px;
+    border: 1px solid @color-border;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: @font-base;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    background: #fff;
+
+    &:focus {
+        outline: none;
+        border-color: @color-blue;
+        box-shadow: 0 0 0 1px @color-blue;
+    }
+}
+
+.otm-select { cursor: pointer; }
+
+// ADD / REMOVE toggle
+.otm-toggle-row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.otm-toggle {
+    flex: 1;
+    padding: 5px 0;
+    border: 1px solid @color-border;
+    border-radius: 2px;
+    background: @color-bg-btn;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    transition: background 0.1s;
+
+    &:hover { background: darken(@color-bg-btn, 4%); }
+
+    &.otm-toggle--active {
+        background: @color-blue;
+        color: #fff;
+        border-color: @color-blue;
+
+        &:hover { background: @color-blue-h; }
+    }
+}
+
+// Preview list
+.otm-preview-label {
+    font-size: 11px;
+    color: @color-muted;
+    margin-bottom: 4px;
+}
+
+.otm-preview {
+    margin: 0;
+    padding: 0 0 0 14px;
+    max-height: 110px;
+    overflow-y: auto;
+    border: 1px solid @color-border;
+    border-radius: 2px;
+    background: #faf9f8;
+}
+
+.otm-preview-item {
+    padding: 2px 0;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.otm-preview-empty {
+    padding: 4px 0;
+    font-size: 11px;
+    color: @color-muted;
+    font-style: italic;
+    list-style: none;
+}
+
+// Action buttons
+.otm-btn-row {
+    display: flex;
+    gap: 6px;
+}
+
+.otm-btn {
+    flex: 1;
+    padding: 7px 6px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: @font-base;
+    transition: background 0.1s;
+
+    &:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+    }
+
+    &.otm-btn--primary {
+        background: @color-blue;
+        color: #fff;
+        border-color: @color-blue;
+        &:hover:not(:disabled) { background: @color-blue-h; border-color: @color-blue-h; }
+    }
+
+    &.otm-btn--secondary {
+        background: @color-bg-btn;
+        color: @color-text;
+        border-color: @color-border;
+        &:hover:not(:disabled) { background: darken(@color-bg-btn, 4%); }
+    }
+}
