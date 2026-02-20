@@ -1,5 +1,4 @@
 node_modules/
-dist/
 .tmp/
-*.pbiviz
 webpack.statistics.*.html
+# dist/ and .pbiviz are committed so the file is directly downloadable

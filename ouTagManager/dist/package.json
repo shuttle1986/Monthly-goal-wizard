@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"shuttle1986","email":"dev@example.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/ouTagManager2B06C15812FE4B81B86B241F4E432D81.pbiviz.json"
+			}
+		],
+		"visual": {"name":"ouTagManager","displayName":"OU Tag Manager","guid":"ouTagManager2B06C15812FE4B81B86B241F4E432D81","visualClassName":"Visual","version":"1.0.0.0","description":"Bulk add or remove tags for users within the current report filter scope.","supportUrl":"https://github.com/shuttle1986/Monthly-goal-wizard","gitHubUrl":"https://github.com/shuttle1986/Monthly-goal-wizard"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
